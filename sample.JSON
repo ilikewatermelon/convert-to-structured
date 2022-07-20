@@ -1,0 +1,16 @@
+{
+	"singular_key": "This is a regular string.",
+	"total_files": "{ file_count, plural, one {You have {file_count} file.} other {You have {file_count}files.} }",
+	"special_chars": "{ cnt, plural, one {This is Sam's book.} other {These are Sam's books.} }",
+	"gold_coins": "{ cnt, plural, one {You have one gold coin.} other {You have {cnt} gold coins.} \n}",
+	"key_1": {
+		"key_nested_1a": "localize",
+		"key_nested_1b": {
+			"key_nested_1ba": "translation tools",
+			"key_nested_1bb": "{ minute_count, plural, one {minute} other {{minute_count} minutes} }"
+		}
+	},
+	"parent_key": {
+		"child_key": "This is a key from a child"
+	}
+}
